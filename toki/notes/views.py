@@ -1,6 +1,6 @@
-from django.shortcuts import render, render_to_response, get_object_or_404
-from django.template import RequestContext, loader
-from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404  #  render_to_response,
+# from django.template import RequestContext, loader
+from django.http import HttpResponseRedirect  # HttpResponse,
 from django.contrib import messages
 from django.urls import reverse
 from .models import Notes, Tag
