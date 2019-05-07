@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.10/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
-from django.core.urlresolvers import reverse_lazy
+from django.urls import reverse_lazy
 import os
 from os.path import dirname, join, exists
 
@@ -25,13 +25,12 @@ MEDIA_URL = "/media/"
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'gqusqolfzr3p^y9mp7c+7+t+c#d!fvpjocgz2445n%9z*sxf6s'
+SECRET_KEY = 'gqusqolfzr3p^y9mp7c+7+t+c#d!fvpjocgz2445n%9z*sxf3s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
-                 'shubhamnishad97.pythonanywhere.com'
                 ]
 
 
