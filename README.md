@@ -1,5 +1,5 @@
-# toki-keep-a-note   [![Build Status](https://travis-ci.org/shubhamnishad97/toki-keep-a-note.svg?branch=master)](https://travis-ci.org/shubhamnishad97/toki-keep-a-note)
-A simple note taking app made with Django. http://toki1.pythonanywhere.com/
+# django-keep-a-note
+A simple note taking app made with Django. Inspired by [toki-keep-a-note](http://toki1.pythonanywhere.com/)
 ##### 
 
 Toki is a simple note taking Django project. It was developed to act as a Hands-on and to increase my experience with a MVC framework(MTV as in the case of Django).
@@ -54,6 +54,10 @@ Run this command to start the app:
 
 Visit `127.0.0.1:8000` on your web browser and don't forget to give me some feedback.
 
+
+## 2019-05-07
+- changes for django 1.11.20
+- changes for django 2.2.1
 
 
 ## Screenshots
