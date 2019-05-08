@@ -33,7 +33,12 @@
         {% if tags %}
             {% for tag in tags %}
             <li class="list-group-item">
-                <a href="{% url 'notes:addtag' %}?id={{tag.id}}">{{tag}}</a>
+{#                <a href="{% url 'notes:addtag' %}?id={{tag.id}}">{{tag}}</a>#}
+                {% if tag %}
+                    <a href="{% url 'notes:showtag' tag.id %}">{{tag}}</a>
+                {% else %}
+                    <a href="{% url 'notes:showtag' None %}">{{tag}}</a>
+                {% endif %}
             </li>
             {% endfor %}
         {% else %}
