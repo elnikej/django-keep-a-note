@@ -86,6 +86,7 @@
     </div>
 
     <hr>
+    <!-- Site footer -->
     {% block footer %}
       <!-- Some social button for contact will do -->
       <a name="contact"></a>
@@ -93,12 +94,11 @@
             <div class="footer">
         <div class="row">
           <div class="col-lg-6">
-              <p>&copy; ShubhamNishad 2017</p>
+{#              <p>&copy;  {% now 'Y-m-d' %}</p>#}
+              <p>{% now 'Y-m-d' %}</p>
           </div>
           <div class="col-lg-6 text-right">
-            Connect with us on
-            <a href="https://github.com/shubhamnishad97"><i class="fa fa-github"></i> GitHub</a> or
-            <a href="https://twitter.com/shubhamnishad97"><i class="fa fa-twitter"></i> Twitter</a>
+            ...
           </div>
         </div>
             </div>

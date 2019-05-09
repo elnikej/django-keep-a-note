@@ -38,13 +38,13 @@ I was interested in Django from the first time I searched about and after a litt
 *   [django-crispy-forms](http://django-crispy-forms.readthedocs.io/en/latest/): it makes your forms way more beautiful or I should say crispy.
 *   [virtualenv](https://virtualenv.pypa.io/en/stable/): its a no-brainer.
 *   [django-pagedown](https://github.com/timmyomahony/django-pagedown): provides easy editor for markdown input.
-*   many other packages are used, for them do check the requirement file.[link](https://github.com/shubhamnishad97/toki-keep-a-note/blob/master/requirements.txt): 
+*   many other packages are used, for them do check the requirement file.[link](https://github.com/elnike/django-keep-a-note/blob/master/requirements.txt): 
 
 
 ## How to run the project locally
 
-Download the [zip](https://github.com/shubhamnishad97/toki-keep-a-note/archive/master.zip) or Clone this repository:
-`git clone https://github.com/shubhamnishad97/toki-keep-a-note.git`
+Download the [zip](https://github.com/elnikej/django-keep-a-note/archive/master.zip) or Clone this repository:
+`git clone https://github.com/elnikej/django-keep-a-note.git`
 
 Install the dependencies by simply executing:
 `pip install -r requirements.txt`
@@ -72,4 +72,4 @@ Visit `127.0.0.1:8000` on your web browser and don't forget to give me some feed
 
 
 
-## License [MIT](https://github.com/shubhamnishad97/toki-keep-a-note/blob/master/LICENSE)
+## License [MIT](https://github.com/elnikej/django-keep-a-note/blob/master/LICENSE)

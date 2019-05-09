@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{% block description %}{% endblock description %}">
-    <meta name="author" content="Shubham Nishad">
+    <meta name="author" content="elnikej@gmail.com">
     <link rel="shortcut icon" href="{% static 'site/ico/favicon.ico' %}">
 
     <title>{% block title %}{% include "_brandname.html" %} :: {% endblock %}</title>
@@ -114,12 +114,11 @@
             <div class="footer">
         <div class="row">
           <div class="col-lg-6">
-              <p>&copy; ShubhamNishad {% now 'Y' %}</p>
+{#              <p>&copy;  {% now 'Y-m-d' %}</p>#}
+              <p>{% now 'Y-m-d' %}</p>
           </div>
           <div class="col-lg-6 text-right">
-            Connect with us on
-            <a href="https://github.com/shubhamnishad97"><i class="fa fa-github"></i> GitHub</a> or
-            <a href="https://twitter.com/shubhamnishad97"><i class="fa fa-twitter"></i> Twitter</a>
+            ...
           </div>
         </div>
             </div>
@@ -135,5 +134,3 @@
     {% endblock scripts %}
   </body>
 </html>
-
-
